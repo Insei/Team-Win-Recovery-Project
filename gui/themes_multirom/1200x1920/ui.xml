@@ -3,8 +3,8 @@
 <recovery>
 	<details>
 		<resolution width="1200" height="1920" />
-		<author>z31s1g</author>
-		<title>TWRP Materialised MultiROM Light</title>
+		<author>z31s1g / daveyannihilation</author>
+		<title>TWRP Materialised MultiROM Dark</title>
 		<description>Material Design theme for TWRP recovery</description>
 		<preview>preview.png</preview>
 		<themeversion>1</themeversion>
@@ -515,20 +515,20 @@
 		<variable name="darktransparent" value="#000000bb" />
 		<variable name="lightransparent" value="#00000033" />
 		<variable name="transparent" value="#00000000" />
-		<variable name="text" value="#3B3B3BFF" />
-		<variable name="text_actionbar" value="#E7EBEFFF" />
-		<variable name="text_button" value="#3B3B3BFF" />
-		<variable name="text_light" value="#F3F3F3FF" />
-		<variable name="text_dark" value="#6F6F6FFF" />
-		<variable name="text_highlight" value="#607D8BFF" />
-		<variable name="text_success" value="#68B60B" />
+		<variable name="text" value="#EEEEEE" />
+		<variable name="text_actionbar" value="#EEEEEE" />
+		<variable name="text_button" value="#EEEEEE" />
+		<variable name="text_light" value="#EEEEEE" />
+		<variable name="text_dark" value="#EEEEEE" />
+		<variable name="text_highlight" value="#0090CA60" />
+		<variable name="text_success" value="#76FF03" />
 		<variable name="text_fail" value="#FF0101" />
-		<variable name="highlight_color" value="#F3F3F366"  />
-		<variable name="console_foreground" value="#3B3B3BFF" />
-		<variable name="linecolor" value="#D0D0D0FF" />
-		<variable name="warning" value="#F8F8A0FF" />
-		<variable name="error" value="#FF4040FF" />
-		<variable name="highlight" value="#607D8BFF" />
+		<variable name="highlight_color" value="#1A1A1A80"  />
+		<variable name="console_foreground" value="#EEEEEE" />
+		<variable name="linecolor" value="#AAAAAA" />
+		<variable name="warning" value="#FF0101" />
+		<variable name="error" value="#FF0101" />
+		<variable name="highlight" value="#0090CA" />
 
 		<variable name="tab4_col1_x" value="0" />
 		<variable name="tab4_col2_x" value="300" />
@@ -907,10 +907,10 @@
 				<condition var1="tw_hide_kb" var2="0"/>
 				<placement x="0" y="%keyboard_terminal_y%" w="%screen_width%" h="96"/>
 				<keymargin x="0" y="0"/>
-				<background color="%background%"/>
-				<key-alphanumeric color="%background%" font="keylabel" textcolor="%text%"/>
-				<key-other color="%background%" font="keylabel-small" textcolor="%text_dark%"/>
-				<longpress font="keylabel-longpress" textcolor="%text_dark%" x="12" y="0"/>
+				<background color="#111111"/>
+				<key-alphanumeric color="#111111" font="keylabel" textcolor="#EEEEEE"/>
+				<key-other color="#111111" font="keylabel-small" textcolor="#BBBBBB"/>
+				<longpress font="keylabel-longpress" textcolor="#BBBBBB" x="12" y="0"/>
 				<keylabel key="0:k:29" text="Ctrl"/>
 				<keylabel key="0:c:27" text="Esc"/>
 				<keylabel key="0:c:9" text="Tab"/>
@@ -937,10 +937,10 @@
 				<condition var1="tw_hide_kb" var2="0" />
 				<placement x="0" y="%keyboard_y%" w="1200" h="644" />
 				<keymargin x="8" y="8" />
-				<background color="%background%" />
-				<key-alphanumeric color="%background%" font="keylabel" textcolor="%text%" />
-				<key-other color="%background%" font="keylabel-small" textcolor="%text_dark%" />
-				<longpress font="keylabel-longpress" textcolor="%text_dark%" x="12" y="0" />
+				<background color="#111111" />
+				<key-alphanumeric color="#111111" font="keylabel" textcolor="#EEEEEE" />
+				<key-other color="#111111" font="keylabel-small" textcolor="#BBBBBB" />
+				<longpress font="keylabel-longpress" textcolor="#BBBBBB" x="12" y="0" />
 				<keylabel key="0:c:8" text="Bksp" resource="backspace" />
 				<keylabel key="0:action" text="Enter" resource="enter" />
 				<keylabel key=" " text="Space" resource="space" />
